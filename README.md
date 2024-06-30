@@ -1,5 +1,7 @@
 # 🃏 standard-deck
 
+[![Go Coverage](https://github.com/bytebury/standard-deck/wiki/coverage.svg)](https://raw.githack.com/wiki/bytebury/standard-deck/coverage.html)
+
 A library to create, shuffle, and play with a Standard Deck of Playing Cards. Allows you to focus on the game's rules
 while this library manages the deck itself.
 

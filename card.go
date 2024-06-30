@@ -3,7 +3,7 @@ package standarddeck
 import (
 	"fmt"
 
-	"github.com/bytebury/standard-deck/pkg/suit"
+	"github.com/bytebury/standard-deck/suit"
 )
 
 type Card struct {

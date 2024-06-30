@@ -2,6 +2,12 @@
 
 A library to create, shuffle and play with a Standard Deck of Playing Cards.
 
+# Installation
+
+```shell
+go get github.com/bytebury/standard-deck
+```
+
 # Usage
 
 ```go
@@ -35,5 +41,12 @@ func main() {
 
     // Check to see if your first card is a Heart
     fmt.Println(myHand[0].Suit == suit.Heart)
+
+    // Get the value and display value of your first card
+    fmt.Printf("You have a %s of %s\n", myHand[0].DisplayValue, myHand[0].Suit)
+
+    // For weighted values of a card, you can get the `Value`
+    // Ace has weighted value of 1 and King has weighted value of 13
+    fmt.Println("Card value is:", myHand[0].Value)
 }
 ```

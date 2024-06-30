@@ -1,6 +1,7 @@
-# 🃏 Deck
+# 🃏 standard-deck
 
-A library to create, shuffle and play with a Standard Deck of Playing Cards.
+A library to create, shuffle, and play with a Standard Deck of Playing Cards. Allows you to focus on the game's rules
+while this library manages the deck itself.
 
 # Installation
 

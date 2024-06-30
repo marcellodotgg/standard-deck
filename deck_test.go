@@ -21,6 +21,15 @@ func Test_Shuffle(t *testing.T) {
 	}
 }
 
+func Test_ShuffleInPlace(t *testing.T) {
+	deck := New()
+	deck.Shuffle()
+
+	if reflect.DeepEqual(deck.Cards, New().Cards) {
+		t.Error("Should have shuffled the deck in place")
+	}
+}
+
 func Test_Draw_TooManyReturnsError(t *testing.T) {
 	deck := New()
 

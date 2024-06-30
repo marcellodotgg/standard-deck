@@ -30,6 +30,10 @@ func (d *Deck) Draw(number int) ([]Card, error) {
 		return []Card{}, errors.New("not enough cards in the deck")
 	}
 
+	if number <= 0 {
+		return []Card{}, errors.New("cannot draw less than 1 card")
+	}
+
 	cards := d.Cards[:number]
 	d.Cards = d.Cards[number:]
 

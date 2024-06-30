@@ -1,7 +1,7 @@
 package standarddeck
 
 import (
-	"fmt"
+	"strconv"
 
 	"github.com/bytebury/standard-deck/suit"
 )
@@ -45,6 +45,6 @@ func getDisplayValue(value int) string {
 	case 13:
 		return "K"
 	default:
-		return fmt.Sprintf("%d", value)
+		return strconv.Itoa(value)
 	}
 }

@@ -8,10 +8,10 @@ A library to create, shuffle and play with a Standard Deck of Playing Cards.
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	standarddeck "github.com/bytebury/standard-deck"
-	"github.com/bytebury/standard-deck/suit"
+    standarddeck "github.com/bytebury/standard-deck"
+    "github.com/bytebury/standard-deck/suit"
 )
 
 func main() {

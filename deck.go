@@ -10,7 +10,7 @@ type Deck struct {
 	Cards []Card
 }
 
-// Shuffles the deck of cards in place.
+// Shuffles the deck of cards in place and returns it.
 func (d Deck) Shuffle() Deck {
 	randomNumber := rand.New(rand.NewSource(time.Now().UnixNano()))
 	length := len(d.Cards)
